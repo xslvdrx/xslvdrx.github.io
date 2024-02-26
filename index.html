@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sebastian Miedzianowski UX/UI WebDeveloper</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+	</head>
+	<body>
+		<div class="mobile-wrap">
+			<header>
+				<button class="mobile-btn">
+					<a href="https://github.com/xslvdrx" target="_blank"
+						><i class="fa-brands fa-github"></i
+					></a>
+				</button>
+				<button class="mobile-btn">
+					<a href="#mobile-about"> about</a>
+				</button>
+
+				<button class="mobile-btn">
+					<a href="#mobile-work">work</a>
+				</button>
+				<button class="mobile-btn">
+					<a href="#mobile-hireme">hire me</a>
+				</button>
+				<button class="mobile-btn">
+					<a href="/CV-page/index.html" target="_blank">CV</a>
+				</button>
+			</header>
+			<div class="mobile-logo">
+				<span>mie</span>
+				<span>dzia</span>
+				<span>now</span>
+				<span>ski!</span>
+			</div>
+			<div class="mobile-about" id="mobile-about">
+				<h3>Cześć, jestem Sebastian</h3>
+				<p>
+					Jestem web developerem i UX/UI web designerem. Moim celem
+					jest tworzenie stron internetowych, które są nie tylko
+					piękne, ale również funkcjonalne i przyjazne dla
+					użytkownika. Moje doświadczenie obejmuje projektowanie
+					interfejsów użytkownika oraz tworzenie responsywnych stron
+					internetowych zgodnych z wytycznymi SEO. Pracuję zgodnie z
+					najlepszymi praktykami projektowania i programowania, aby
+					zapewnić moim klientom najlepsze doświadczenia użytkownika.
+					Jeśli szukasz kogoś, kto stworzy stronę internetową, która
+					będzie zarówno piękna, jak i funkcjonalna, skontaktuj się ze
+					mną. Chętnie pomogę Ci w realizacji Twojego projektu.
+				</p>
+			</div>
+			<div class="mobile-work" id="mobile-work">
+				<a href="komfortdom/index.html"
+					><img src="img/thaisty.jpg" alt=""
+				/></a>
+
+				<a href="https://tasty-shots.com/"
+					><img src="img/tasty-shots.jpg" alt=""
+				/></a>
+				<a href="Ecommerce/index.html"
+					><img src="img/store.jpg" alt=""
+				/></a>
+			</div>
+			<div class="mobile-hireme" id="mobile-hireme">
+				<h3>Jeżeli podobają Ci się moje prace</h3>
+				<p>Zapraszam do kontaktu:</p>
+				<div class="mobile-social-link">
+					<a href="mailto:sebastianmiedzianowski@gmail.com"
+						><i class="fa-solid fa-envelope"></i
+					></a>
+					<a href="https://www.facebook.com/slvdrzzz" target="_blank"
+						><i class="fa-brands fa-facebook-f"></i
+					></a>
+					<a href="https://www.instagram.com/slvdr66/" target="_blank"
+						><i class="fa-brands fa-instagram"></i
+					></a>
+					<a
+						href="https://pl.linkedin.com/in/sebastian-miedzianowski"
+						target="_blank"
+						><i class="fa-brands fa-linkedin-in"></i
+					></a>
+					<a href="https://codepen.io/xslvdrx" target="_blank">
+						<i class="fa-brands fa-codepen"></i>
+					</a>
+				</div>
+			</div>
+
+			<button
+				onclick="topFunction()"
+				id="myBtn"
+				class="animate__animated animate__fadeIn"
+				title="Go to top"
+			>
+				To Top <i class="fa-solid fa-arrow-right"></i>
+			</button>
+
+			<footer>© 2023 Sebastian Miedzianowski All Rights Reserved</footer>
+		</div>
+
+		<!--DESKTOP-->
+		<div class="wrapper animate__animated animate__fadeIn">
+			<div class="main">
+				<div class="logo">
+					<span>mie</span>
+					<span>dzia</span>
+					<span>now</span>
+					<span>ski!</span>
+				</div>
+
+				<div class="main-section">
+					<div class="section">
+						<button class="tablink">
+							<a href="https://github.com/xslvdrx" target="_blank"
+								><i class="fa-brands fa-github"></i
+							></a>
+						</button>
+						<button
+							class="tablink"
+							onclick="openPage('About', this, 'var(--black)')"
+							id="defaultOpen"
+						>
+							about
+						</button>
+
+						<button
+							class="tablink"
+							onclick="openPage('Work', this, 'var(--black)')"
+						>
+							work
+						</button>
+						<button
+							class="tablink"
+							onclick="openPage('Hireme', this, 'var(--black)')"
+						>
+							hire me
+						</button>
+
+						<button class="tablink">
+							<a href="/CV-page/index.html" target="_blank">CV</a>
+						</button>
+
+						<div id="About" class="tabcontent">
+							<div
+								class="home-content animate__animated animate__fadeIn"
+							>
+								<div class="description">
+									<h3>Cześć, jestem Sebastian</h3>
+									<p>
+										Jestem web developerem i UX/UI web
+										designerem. Moim celem jest tworzenie
+										stron internetowych, które są nie tylko
+										piękne, ale również funkcjonalne i
+										przyjazne dla użytkownika. Moje
+										doświadczenie obejmuje projektowanie
+										interfejsów użytkownika oraz tworzenie
+										responsywnych stron internetowych
+										zgodnych z wytycznymi SEO. Pracuję
+										zgodnie z najlepszymi praktykami
+										projektowania i programowania, aby
+										zapewnić moim klientom najlepsze
+										doświadczenia użytkownika. Jeśli szukasz
+										kogoś, kto stworzy stronę internetową,
+										która będzie zarówno piękna, jak i
+										funkcjonalna, skontaktuj się ze mną.
+										Chętnie pomogę Ci w realizacji Twojego
+										projektu.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div id="Work" class="tabcontent">
+							<div
+								class="work-content animate__animated animate__fadeIn"
+							>
+								<div class="work-gallery">
+									<a
+										href="komfortdom/index.html"
+										target="_blank"
+										><img src="img/store.jpg" />
+									</a>
+									<a
+										href="https://tasty-shots.com/"
+										target="_blank"
+										><img src="img/tasty-shots.jpg"
+									/></a>
+									<a
+										href="Ecommerce/index.html"
+										target="_blank"
+										><img src="img/store.jpg" />
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div id="Hireme" class="tabcontent">
+							<div
+								class="hireme-content animate__animated animate__fadeIn"
+							>
+								<div class="description">
+									<h3>Jeżeli podobają Ci się moje prace</h3>
+									<p>Zapraszam do kontaktu:</p>
+									<div class="social-link">
+										<a
+											href="mailto:sebastianmiedzianowski@gmail.com"
+											><i class="fa-solid fa-envelope"></i
+										></a>
+										<a
+											href="https://www.facebook.com/slvdrzzz"
+											target="_blank"
+											><i
+												class="fa-brands fa-facebook-f"
+											></i
+										></a>
+										<a
+											href="https://www.instagram.com/miedzianowskiart/"
+											target="_blank"
+											><i
+												class="fa-brands fa-instagram"
+											></i
+										></a>
+										<a
+											href="https://pl.linkedin.com/in/sebastian-miedzianowski"
+											target="_blank"
+											><i
+												class="fa-brands fa-linkedin-in"
+											></i
+										></a>
+										<a
+											href="https://codepen.io/xslvdrx"
+											target="_blank"
+										>
+											<i class="fa-brands fa-codepen"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--nothing, just upload-->
+
+			<footer>© 2023 Sebastian Miedzianowski All Rights Reserved</footer>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
